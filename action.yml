@@ -4,5 +4,5 @@ runs:
   using: "composite"
   steps:
     - name: Run test-results-printer.sh
-      run: test-results-printer.sh
+      run: cat test-results/report.txt
       shell: bash

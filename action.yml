@@ -1,0 +1,8 @@
+name: "Test results printer"
+description: "Cats that one file"
+runs:
+  using: "composite"
+  steps:
+    - name: Run test-results-printer.sh
+      run: test-results-printer.sh
+      shell: bash
